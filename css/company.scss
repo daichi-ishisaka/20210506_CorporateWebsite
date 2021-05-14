@@ -44,7 +44,7 @@ h3 {
 header {
   position: sticky;
   align-items: center;
-  top:0px;
+  top: 0px;
   height: 70px;
   line-height: 1;
   background-color: white;
@@ -109,17 +109,6 @@ header {
 
 //------------mv end-------------//
 
-.thought {
-  background-color: #222;
-  color: white;
-}
-
-.thought-ttl {
-  margin-bottom: 20px;
-}
-
-//-------------thought end------------//
-
 .service-ttl {
   text-align: center;
 }
@@ -150,78 +139,6 @@ header {
 }
 
 //-----------service end------------//
-
-.news {
-  background-color: #222;
-}
-
-.news-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.news-ttl {
-  color: white;
-  margin-bottom: 20px;
-}
-
-.news-btn {
-  width: 160px;
-  font-size: 14px;
-  padding: 7px;
-}
-
-.news-item {
-  background-color: white;
-  align-items: center;
-  display: flex;
-  padding: 20px;
-  margin-top: 10px;
-}
-
-.date {
-  margin-right: 10px;
-}
-
-//-----------news end------------//
-
-.blob-ttl {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.blog-item-list {
-  display: flex;
-  justify-content: center;
-}
-
-.blog-item {
-  margin-right: 20px;
-  width: 30%;
-}
-//-----------blog end------------//
-
-.compny-flex {
-  display: flex;
-  text-align: center;
-  font-weight: bold;
-  font-size: 24px;
-  color: white;
-  line-height: 10;
-  padding-top: 0px;
-}
-
-.company {
-  background-color: #cd0224;
-  width: 50%;
-}
-
-.recruitment {
-  background-color: #222;
-  width: 50%;
-}
-//-----------compny-flex end------------//
 
 .question {
   background-color: #f5f6f9;
@@ -340,18 +257,6 @@ footer {
   }
 
   //-----------service end------------//
-
-  .blog-item-list {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .blog-item {
-    margin-right: 20px;
-    width: 100%;
-  }
-
-  //-----------blog end------------//
 
   .footer-container {
     justify-content: space-around;

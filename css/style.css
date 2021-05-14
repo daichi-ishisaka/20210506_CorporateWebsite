@@ -43,6 +43,7 @@ h3 {
 header {
   position: sticky;
   align-items: center;
+  top: 0px;
   height: 70px;
   line-height: 1;
   background-color: white;
@@ -82,7 +83,7 @@ header {
 }
 
 .mv {
-  background: url(img/mv.png);
+  background: url(/img/mv.png);
   height: 80vh;
   display: flex;
   align-items: center;
@@ -244,10 +245,6 @@ footer {
 @media screen and (max-width: 768px) {
   .wrap {
     width: 85%;
-  }
-  header {
-    position: sticky;
-    top: 0px;
   }
   .header-nav {
     display: none;
