@@ -40,6 +40,12 @@ h3 {
   font-weight: bold;
 }
 
+.service-question-btn {
+    margin: 40px auto 0;
+    width: 300px;
+    padding: 10px;
+}
+
 //-------------------------------------//
 header {
   position: sticky;
@@ -109,36 +115,34 @@ header {
 
 //------------mv end-------------//
 
-.service-ttl {
-  text-align: center;
+.news {
+
 }
 
-.service-item-list {
+.news-head {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
-.service-item {
-  width: 49%;
-  margin-top: 20px;
+.news-ttl {
+  color: white;
+  margin-bottom: 20px;
 }
 
-.service-item:nth-child(odd) {
-  margin-right: 20px;
+.news-item {
+  border: solid 1px #000;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
 }
 
-.service-item-txt {
-  width: 100%;
+.date {
+  margin-right: 10px;
 }
 
-.service-question-btn {
-  margin: 40px auto 0;
-  width: 300px;
-  padding: 10px;
-}
-
-//-----------service end------------//
+//-----------news end------------//
 
 .question {
   background-color: #f5f6f9;
@@ -252,14 +256,17 @@ footer {
     transform: translateX(100%);
   }
 
-  .service-item {
-    width: 100%;
-  }
+  //-----------menu end------------//
+
+.news-item{
+  padding: 10px;
+  font-size: 14px;
+}
 
   //-----------service end------------//
 
   .footer-container {
-    justify-content: space-around;
+    flex-direction: column;
   }
 
   .footer-nav-list {

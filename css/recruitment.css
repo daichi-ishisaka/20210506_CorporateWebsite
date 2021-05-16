@@ -28,6 +28,11 @@ h3 {
   margin: auto;
 }
 
+.wrap-s {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .box {
   padding: 80px 0;
 }
@@ -104,23 +109,34 @@ header {
   text-align: center;
 }
 
-.service-ttl {
-  text-align: center;
+.requruitment {
+  padding: 80px 0;
 }
 
-.service-item-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+table {
+  width: 100%;
 }
 
-.service-item {
-  width: 49%;
-  margin-top: 20px;
+.requruitment-ttl {
+  border-bottom: solid 1px #000;
 }
 
-.service-item:nth-child(odd) {
-  margin-right: 20px;
+.requruitment-ttl:not(:first-child) {
+  margin-top: 80px;
+}
+
+.requruitment-massgae {
+  margin: 20px 0;
+}
+
+.requruitment-contents, .requruitment-sentence {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+.requruitment-contents {
+  background-color: #f5f6f9;
+  width: 30%;
 }
 
 .service-item-txt {
@@ -166,7 +182,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .wrap {
+  .wrap-s {
     width: 85%;
   }
   .header-nav {
@@ -233,7 +249,7 @@ footer {
     width: 100%;
   }
   .footer-container {
-    justify-content: space-around;
+    flex-direction: column;
   }
   .footer-nav-list {
     margin-top: 10px;
