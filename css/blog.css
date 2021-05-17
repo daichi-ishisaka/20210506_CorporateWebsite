@@ -95,6 +95,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
 }
 
 .mv-sentence {
@@ -111,7 +112,8 @@ header {
   text-align: center;
 }
 
-.blog-item-list-top, .blog-item-list-bottom {
+.blog-item-list-top,
+.blog-item-list-bottom {
   display: flex;
 }
 
@@ -230,7 +232,8 @@ footer {
     margin: auto;
     width: 100%;
   }
-  .blog-item-list-top, .blog-item-list-bottom {
+  .blog-item-list-top,
+  .blog-item-list-bottom {
     display: flex;
     flex-wrap: wrap;
   }
